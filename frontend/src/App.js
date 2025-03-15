@@ -3,7 +3,7 @@ import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://salesstudiotask.onrender.com';
 
 function App() {
     const [coupon, setCoupon] = useState(null);
